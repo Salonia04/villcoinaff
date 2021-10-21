@@ -16,7 +16,7 @@ html{
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 50px 0;
     max-width: 1200px;
 }
 .container__nav{
@@ -53,6 +53,7 @@ html{
     height: 70px;
     align-items: center;
     font-weight: 700;
+    text-align: center;
 }
 .nav--footer{
     font-weight: 300;
@@ -83,9 +84,8 @@ html{
     color: #fff;
 }
 .hero__texts{
-    width: 80%;
+    width: 100%;
     margin-bottom: 50px;
-    margin-left: 50px;
 }
 .hero__title{
     font-size: 3.2rem;
@@ -384,10 +384,9 @@ img{
     align-items: center;
 }
 .footer__title{
-    font-weight: 400%;
+    font-weight: 100%;
     color: #fff;
     font-size: 2rem;
-    margin-bottom: 30px;
     text-align:center;
 }
 .footer__icons{
@@ -413,6 +412,7 @@ img{
 .imagen-about-us{
     width: 70%;
     border-radius: 20px;
+    border: solid 12px #0f0f0f;
 
 }
 .sobre-nosotros .comtenido-textos{
@@ -422,7 +422,7 @@ img{
     margin-bottom: 15px;
 }
 .contenido-textos h3 span{
-    background: #4d0686;
+    background: #1a1a1a;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -492,6 +492,10 @@ input[type="submit"]{
     text-align: center;
     text-decoration: none;
     position: relative;
+}
+
+#texto, #e-mail{
+    margin-top: 2px;
 }
 
 
