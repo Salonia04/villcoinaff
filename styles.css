@@ -9,9 +9,32 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
+#modos{
+    float: right;
+    width: 6%;
+}
+
+#modo-dark, #modo-light{
+    width: 40%;
+    height: 30px;
+    margin-right: 2px;
+    margin-top: 2px;
+    border-radius: 30px;
+}
+
+#modo-dark{
+    background-color: black;
+}
+
+#modo-light{
+    background-color: white;
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
@@ -24,8 +47,7 @@ html{
     overflow: hidden;
     max-width: 1200px;
 }
-.subtitle{
-    color: var(--color-primary);
+#subtitle, #subtitle2{
     font-size: 2.5rem;
     margin-bottom: 35px;
 }
@@ -59,29 +81,13 @@ html{
     font-weight: 300;
     justify-content: flex-start;
 }
-.nav__items{
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px;
-    padding: 10px 15px;
-    font-weight: inherit;
-}
-.nav__items:hover{
-    text-decoration: underline;
-    background: royalblue;
-}
-.nav__items--cta{
-    border: 1px solid #fff;
-}
-.nav__items--footer{
-    padding: 10px;
-}
+
 
 .hero__container{
     display: flex;
     height: calc(100vh - 70px);
     align-items: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .hero__texts{
     width: 100%;
@@ -96,7 +102,7 @@ html{
     margin: 15px 0;
 }
 
-.hero__wave{
+#hero__wave{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -143,9 +149,6 @@ img{
     width: 100%;
 }
 
-.testimony{
-    background: #ffffff;
-}
 .testimony__grid{
     width: 100%;
     display: grid;
@@ -233,7 +236,6 @@ img{
     text-align:center;
 }
 
-
 .footer__icon{
     color: #fff;
     font-size: 30px;
@@ -254,7 +256,7 @@ img{
     border: solid 12px #0f0f0f;
 
 }
-.sobre-nosotros .comtenido-textos{
+.sobre-nosotros .contenido-textos{
     width: 48%;
 }
 .contenido-textos h3{
@@ -322,15 +324,17 @@ input[type="submit"]{
 
 .boton-fondo{
     display: inline-block;
+    margin-left: 38%;
     padding: 15px;
-    width: 300px;
+    width: 250px;
     border: 1px solid rgba(0, 0, 0, 0.7);;
-    background-color: grey;
-    color: rgba(0, 0, 0, 0.7);;
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
     position: relative;
+    border-radius: 50px;
 }
 
 #texto, #e-mail{
