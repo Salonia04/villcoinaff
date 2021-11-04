@@ -13,5 +13,16 @@ function light(){
     document.getElementById("subtitle2").style.color="#000000"
     document.getElementById("corte").style.fill="#FFFFFF"
 }
+function enviado(){
+    var nombre = document.getElementById("texto").value;
+    var Gmail = document.getElementById("e-mail").value;
+    if (nombre.length==0){
+        alert("No colocó el nombre");
+    }else if(Gmail.length==0){
+        alert("No compelto el gmail");
+    }else{
+        alert ("Gracias por completarlo");
+    }
+}
 
 
